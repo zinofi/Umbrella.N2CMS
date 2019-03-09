@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AB6C5536-BF9C-490A-8E1F-4EDE37F5BCDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umbrella.N2", "src\Umbrella.N2\Umbrella.N2.csproj", "{523436E9-03E6-4A61-9F94-33A71EC6A96F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{93264410-08EC-400D-B315-DDBAA02F66C6}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		AzureDevOps|Any CPU = AzureDevOps|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{523436E9-03E6-4A61-9F94-33A71EC6A96F}.AzureDevOps|Any CPU.ActiveCfg = AzureDevOps|Any CPU
+		{523436E9-03E6-4A61-9F94-33A71EC6A96F}.AzureDevOps|Any CPU.Build.0 = AzureDevOps|Any CPU
+		{523436E9-03E6-4A61-9F94-33A71EC6A96F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{523436E9-03E6-4A61-9F94-33A71EC6A96F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{523436E9-03E6-4A61-9F94-33A71EC6A96F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{523436E9-03E6-4A61-9F94-33A71EC6A96F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{523436E9-03E6-4A61-9F94-33A71EC6A96F} = {AB6C5536-BF9C-490A-8E1F-4EDE37F5BCDF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {289F52DF-FEE9-4D4F-B3AD-2BDD2854EC25}
+	EndGlobalSection
+EndGlobal
